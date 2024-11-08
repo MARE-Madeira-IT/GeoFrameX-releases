@@ -101,35 +101,37 @@ Since this app is not signed, you might need to trust authors in order to open/ 
 
 ##### Windows
 
-1. Download the latest [installer](https://github.com/MARE-Madeira-IT/GeoFrameX-releases/releases/download/v1.0.0/GeoFrameX.exe)
-2. Execute it and accept
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
+1. Download the latest [installer](https://github.com/MARE-Madeira-IT/GeoFrameX-releases/releases/latest/download/GeoFrameX.exe)
+2. Open it (it can be without administrator rights)
+3. Click on ```More info```
+[![Windows step 1][windows-1]]()
+4. Click on ```Run anyway```
+[![Windows step 2][windows-2]]()
+5. Follow the installer steps
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+##### MacOS
 
-
+1. Download the latest [installer](https://github.com/MARE-Madeira-IT/GeoFrameX-releases/releases/latest/download/GeoFrameX.dmg)
+2. Open it and drag GeoFrameX into the ```Applications```
+[![MacOS step 2][macos-2]]()
+3. Click on ```Cancel```
+[![MacOS step 3][macos-3]]()
+4. Open ```System Settings...```
+[![MacOS step 4][macos-4]]()
+5. Go to ```Privacy & Security```
+[![MacOS step 5][macos-5]]()
+6. Click on ```Open Anyway``` and enter your password in the popup
+[![MacOS step 6][macos-6]]()
+7. Click on ```Open``` to confirm
+[![MacOS step 7][macos-7]]()
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+1. Choose video file and gps file.
+2. Insert the time difference from the text file to the video. (Video time: 16:37:49; GPS file first log: 15:38:04; This means that the time difference is: 15:38:04 - 16:37:49 = - 01:00:15, it took 15 seconds between starting the video and starting to log the gps file, which means that this 15 seconds are disposable. Then, the value with insert is - 01:00:00).
+3. Choose the number of seconds between each frame. A smaller number means a larger number of pictures and a higher processing time.
+4. Click on ```Generate images``` to start processing. When the program finishes processing it should open the output directory with the processed files.
 
 
 <!-- ROADMAP -->
@@ -189,6 +191,15 @@ Use this space to list resources you find helpful and would like to give credit 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/application.png
+[windows-1]: images/windows-1.png
+[windows-2]: images/windows-2.png
+
+[macos-2]: images/macos-2.gif
+[macos-3]: images/macos-3.png
+[macos-4]: images/macos-4.png
+[macos-5]: images/macos-5.png
+[macos-6]: images/macos-6.png
+[macos-7]: images/macos-7.png
 
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
