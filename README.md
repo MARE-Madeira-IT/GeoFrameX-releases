@@ -21,8 +21,8 @@
     An app that processes a video file and a GPS log file, breaks the video into individual frames, and assigns each frame to a specific GPS coordinate
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
+    <!-- <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    · -->
     <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
@@ -79,20 +79,20 @@ Use the `BLANK_README.md` to get started.
 
 
 
-### Built With
+<!-- ### Built With
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 * [![Electron.js][Electron.js]][Electron-url]
 * [![React][React.js]][React-url]
-* [![Python][Python]][Python-url]
+* [![Python][Python]][Python-url] -->
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- GETTING STARTED -->
-## Getting Started
+<!-- ## Getting Started
 
-To install, simply execute your OS's installer present in [releases](https://github.com/MARE-Madeira-IT/GeoFrameX-releases/releases).
+To install, simply execute your OS's installer present in [releases](https://github.com/MARE-Madeira-IT/GeoFrameX-releases/releases). -->
 
 
 ### Installation
@@ -137,9 +137,11 @@ Since this app is not signed, you might need to trust authors in order to open/ 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
+- [x] Create README
+- [ ] Add new version with correct icon
+- [ ] Create Demo
+- [ ] Add Usage Images
+- [ ] Add Biigle export format option
 
 See the [open issues](https://github.com/MARE-Madeira-IT/GeoFrameX-releases/issues) for a full list of proposed features (and known issues).
 
