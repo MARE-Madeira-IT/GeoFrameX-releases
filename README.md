@@ -131,7 +131,7 @@ Since this app is not signed, you might need to trust authors in order to open/ 
 1. Choose video file and gps file.
 2. Insert the time difference from the text file to the video. (Video time: 16:37:49; GPS file first log: 15:38:04; This means that the time difference is: 15:38:04 - 16:37:49 = - 01:00:15, it took 15 seconds between starting the video and starting to log the gps file, which means that this 15 seconds are disposable. Then, the value with insert is - 01:00:00).
 3. Choose the number of seconds between each frame. A smaller number means a larger number of pictures and a higher processing time.
-4. Click on ```Generate images``` to start processing. When the program finishes processing it should open the output directory with the processed files.
+4. Click on ```Generate images``` to start processing. When the program finishes it should open the output directory with the processed files.
 
 
 <!-- ROADMAP -->
