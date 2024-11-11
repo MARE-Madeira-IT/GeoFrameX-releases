@@ -113,16 +113,27 @@ Since this app is not signed, you might need to trust authors in order to open/ 
 
 1. Download the latest [installer](https://github.com/MARE-Madeira-IT/GeoFrameX-releases/releases/latest/download/GeoFrameX.dmg)
 2. Open it and drag GeoFrameX into the ```Applications```
+
 [![MacOS step 2][macos-2]]()
+
 3. Click on ```Cancel```
+
 [![MacOS step 3][macos-3]]()
+
 4. Open ```System Settings...```
+
 [![MacOS step 4][macos-4]]()
+
 5. Go to ```Privacy & Security```
+
 [![MacOS step 5][macos-5]]()
+
 6. Click on ```Open Anyway``` and enter your password in the popup
+
 [![MacOS step 6][macos-6]]()
+
 7. Click on ```Open``` to confirm
+
 [![MacOS step 7][macos-7]]()
 
 <!-- USAGE EXAMPLES -->
