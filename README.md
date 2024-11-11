@@ -102,12 +102,19 @@ Since this app is not signed, you might need to trust authors in order to open/ 
 ##### Windows
 
 1. Download the latest [installer](https://github.com/MARE-Madeira-IT/GeoFrameX-releases/releases/latest/download/GeoFrameX.exe)
+
 2. Open it (it can be without administrator rights)
+
 3. Click on ```More info```
+
 [![Windows step 1][windows-1]]()
+
 4. Click on ```Run anyway```
+
 [![Windows step 2][windows-2]]()
+
 5. Follow the installer steps
+
 
 ##### MacOS
 
