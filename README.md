@@ -161,6 +161,7 @@ Since this app is not signed, you might need to trust authors in order to open/ 
 - [ ] Create Demo
 - [ ] Add Usage Images
 - [ ] Add Biigle export format option
+- [ ] Add Biigle transfer via API option
 
 See the [open issues](https://github.com/MARE-Madeira-IT/GeoFrameX-releases/issues) for a full list of proposed features (and known issues).
 
