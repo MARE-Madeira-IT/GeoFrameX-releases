@@ -147,7 +147,7 @@ Since this app is not signed, you might need to trust authors in order to open/ 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-1. Choose video file and gps file.
+1. Choose video file and gps file ([template here][gps-template]).
 2. Insert the time difference from the text file to the video. (Video time: 16:37:49; GPS file first log: 15:38:04; This means that the time difference is: 15:38:04 - 16:37:49 = - 01:00:15, it took 15 seconds between starting the video and starting to log the gps file, which means that this 15 seconds are disposable. Then, the value with insert is - 01:00:00).
 3. Choose the number of seconds between each frame. A smaller number means a larger number of pictures and a higher processing time.
 4. Click on ```Generate images``` to start processing. When the program finishes it should open the output directory with the processed files.
@@ -157,7 +157,6 @@ Since this app is not signed, you might need to trust authors in order to open/ 
 ## Roadmap
 
 - [x] Create README
-- [ ] Add new version with correct icon
 - [ ] Create Demo
 - [ ] Add Usage Images
 - [ ] Add Biigle export format option
@@ -212,3 +211,5 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 [Python]: https://img.shields.io/badge/Python-20232A?style=for-the-badge&logo=Python&logoColor=61DAFB
 [Python-url]: https://www.python.org/
+
+[gps-template]: templates/gps.csv
