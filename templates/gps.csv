@@ -1,3 +1,3 @@
 ﻿date;time;lng;lat;depth
-DD/MM/YYYY;HH:MM:SS.ms;Decimal degrees (DD);Decimal degrees (DD);number
-05/21/2022;15:37:03.253;43.71831;-6.05951;226.90
+DD/MM/YYYY;HH:MM:SS;Decimal degrees (DD);Decimal degrees (DD);number
+21/05/2022;15:37:03;43.71831;-6.05951;226.90
